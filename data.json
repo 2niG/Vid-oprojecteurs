@@ -230,5 +230,38 @@
     "taille_image_max": "300 pouces",
     "rapport_projection": "1.2:1",
     "duree_vie_lampe": "60000 heures (LED)"
+  },
+  {
+    "id": "xgimi-elfin-flip",
+    "nom": "XGIMI Elfin Flip",
+    "description": "Vidéoprojecteur portable Full HD avec 400 lumens ISO, couleurs vives, et Netflix sous licence intégré. Doté de la technologie ISA pour des ajustements automatiques (autofocus, correction trapézoïdale, évitement d'obstacles, alignement d'écran). Son design compact intègre des haut-parleurs puissants et un support pliable pour protection de la lentille.",
+    "prix": 399,
+    "image": "elfin.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.1",
+      "ports": ["USB x1", "HDMI x1"]
+    },
+    "luminosite": "400 lumens ISO",
+    "contraste": "1000:1",
+    "resolution": "1920x1080 (Full HD native)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Non spécifié",
+    "android_tv": true,
+    "os_smart": true,
+    "fonctionnalites_sup": [
+      "Netflix sous licence préinstallé",
+      "HDR 10",
+      "Télécommande élégante",
+      "Support tout-en-un avec protection de lentille",
+      "Technologie d'Adaptation intelligente de l'écran (ISA) : correction automatique de la distorsion trapézoïdale, mise au point automatique, évitement intelligent des obstacles et alignement intelligent de l'écran",
+      "Deux haut-parleurs intégrés de 3 W"
+    ],
+    "technologie_affichage": "DLP",
+    "taille_image_min": "80 pouces",
+    "taille_image_max": "150 pouces",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "25000 heures"
   }
 ]
