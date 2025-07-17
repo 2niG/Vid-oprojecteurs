@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparateur de Vidéoprojecteurs - Trouvez le Meilleur Projecteur</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <img src="images/logo.png" alt="Logo du Comparateur de Vidéoprojecteurs" class="header-logo">
+        <div class="header-content">
+            <h1>Comparateur de Vidéoprojecteurs</h1>
+            <p>Découvrez et comparez les meilleurs vidéoprojecteurs disponibles en France.</p>
+        </div>
+    </div>
+    </header>
+
+    <main class="container content-grid">
+        <aside class="sidebar">
+            <h2>Recherche et Filtres</h2>
+            <div class="filter-group">
+                <label for="search-bar">Rechercher par mot-clé :</label>
+                <input type="text" id="search-bar" placeholder="Ex: Full HD, portable...">
+            </div>
+
+            <div class="filter-group">
+                <h3>Prix (€)</h3>
+                <div class="price-range">
+                    <input type="number" id="min-price" placeholder="Min" min="0">
+                    <span>-</span>
+                    <input type="number" id="max-price" placeholder="Max" min="0">
+                </div>
+            </div>
+
+            <div class="filter-group">
+                <h3>Résolution Native</h3>
+                <select id="resolution-filter">
+                    <option value="">Toutes</option>
+                    <option value="854x480">FWVGA (854x480)</option>
+                    <option value="1280x720">HD (720p)</option>
+                    <option value="1920x1080">Full HD (1080p)</option>
+                    <option value="3840x2160">4K UHD</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <h3>Luminosité (Lumens)</h3>
+                <select id="brightness-filter">
+                    <option value="">Toutes</option>
+                    <option value="<1000">&lt; 1000 ANSI Lumens</option>
+                    <option value="1000-2000">1000-2000 ANSI Lumens</option>
+                    <option value=">2000">&gt; 2000 ANSI Lumens</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <h3>Technologie</h3>
+                <select id="technology-filter">
+                    <option value="">Toutes</option>
+                    <option value="DLP">DLP</option>
+                    <option value="LCD">LCD</option>
+                    <option value="LED">LED</option>
+                </select>
+            </div>
+
+            <button id="apply-filters">Appliquer les filtres</button>
+            <button id="reset-filters">Réinitialiser les filtres</button>
+        </aside>
+
+        <section id="product-list-section">
+            <h2>Nos Sélections de Vidéoprojecteurs</h2>
+            <div id="projector-container">
+            </div>
+            <p id="no-results" style="display: none; text-align: center; margin-top: 20px;">
+                Aucun vidéoprojecteur ne correspond à vos critères de recherche.
+            </p>
+        </section>
+    </main>
+
+    <section id="comparison-section" class="container" style="display: none;">
+        <h2>Comparaison de Vidéoprojecteurs</h2>
+        <div id="comparison-table-container">
+            <table id="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Caractéristique</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+            <button id="clear-comparison">Vider la comparaison</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Comparateur Vidéoprojecteurs. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

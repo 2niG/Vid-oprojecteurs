@@ -1,0 +1,234 @@
+[
+  {
+    "id": "wimius-p62",
+    "nom": "WiMiUS Projecteur domestique P62",
+    "description": "Vidéoprojecteur WiMiUS avec autofocus et correction trapézoïdale automatique verticale et horizontale, 700 ANSI Lumens et Wi-Fi. Idéal pour le home cinéma et les jeux.",
+    "prix": 199,
+    "image": "images/p62.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2",
+      "ports": ["HDMI x2", "USB x2", "Mini Jack Audio in and out"]
+    },
+    "luminosite": "700 ANSI Lumens",
+    "contraste": "20000:1",
+    "resolution": "1920x1080 (Full HD natif, support 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Non spécifié",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Correction trapézoïdale automatique verticale et horizontale",
+      "Lecteur multimédia intégré",
+      "Compatible réseau Wi-Fi",
+      "Mise en miroir d'écran (Airplay, Miracast)"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "50 pouces",
+    "taille_image_max": "300 pouces",
+    "duree_vie_lampe": "30000 heures (LED)"
+  },
+  {
+    "id": "wimius-k9",
+    "nom": "WiMiUS Projecteur K9",
+    "description": "Le premier projecteur WiMiUS avec applications Netflix sous licence officielle et Dolby Audio immersif. Doté d'autofocus laser, correction trapézoïdale automatique, 700 ANSI Lumens, Wi-Fi 6 et un moteur optique entièrement fermé.",
+    "prix": 239,
+    "image": "images/k9.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2",
+      "ports": ["HDMI x2", "USB x2", "RJ45", "Jack 3.5mm"]
+    },
+    "luminosite": "700 ANSI Lumens",
+    "contraste": "20000:1",
+    "resolution": "1920x1080 (Full HD natif, décodage 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Faible (moteur entièrement fermé)",
+    "android_tv": false,
+    "os_smart": "Linux (Netflix, Prime Video, YouTube préinstallés)",
+    "fonctionnalites_sup": [
+      "Netflix sous licence officielle",
+      "Support Dolby Audio",
+      "Mise au point laser automatique",
+      "Correction trapézoïdale automatique",
+      "Zoom 50-100%",
+      "Moteur d'éclairage entièrement fermé (anti-poussière)",
+      "Taux de rafraîchissement 60 Hz"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "50 pouces",
+    "taille_image_max": "150 pouces",
+    "rapport_projection": "1.3:1",
+    "duree_vie_lampe": "60000 heures (LED)"
+  },
+  {
+    "id": "wimius-p64",
+    "nom": "WiMiUS Projecteur intelligent P64",
+    "description": "Projecteur intelligent doté de la mise au point et correction trapézoïdale automatiques 6D, Wi-Fi 6 ultra-rapide. Offre une qualité d'image Full HD 1080P/4K avec un moteur optique entièrement scellé.",
+    "prix": 199,
+    "image": "images/p64.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.2 (Bidirectionnel)",
+      "ports": ["HDMI x2", "USB x2", "AV x1", "Audio Out 3.5mm"]
+    },
+    "luminosite": "700 ANSI Lumens",
+    "contraste": "20000:1",
+    "resolution": "1920x1080 (Full HD natif, support 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Faible (moteur entièrement scellé)",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Mise au point automatique",
+      "Correction trapézoïdale automatique omnidirectionnelle (4 points)",
+      "Zoom 50-100%",
+      "Moteur optique entièrement scellé (anti-poussière)"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "50 pouces",
+    "taille_image_max": "300 pouces",
+    "rapport_projection": "1.3:1",
+    "duree_vie_lampe": "60000 heures (LED)"
+  },
+  {
+    "id": "toptro-x7",
+    "nom": "Toptro X7",
+    "description": "Projecteur intelligent 1080P/4K avec système Android intégré (Netflix, YouTube), autofocus et correction trapézoïdale automatiques, Wi-Fi, Bluetooth 5.2 et un moteur optique entièrement scellé.",
+    "prix": 199,
+    "image": "images/x7.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi",
+      "bluetooth": "Bluetooth 5.2",
+      "ports": ["HDMI x1", "USB x1", "Jack 3.5mm (Entrée et sortie)"]
+    },
+    "luminosite": "600 ANSI Lumens",
+    "contraste": "20000:1",
+    "resolution": "1920x1080 (Full HD native, support 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Faible (moteur entièrement scellé, non spécifié en dB)",
+    "android_tv": true,
+    "os_smart": "Android 9.0 (Netflix, Youtube préinstallés)",
+    "fonctionnalites_sup": [
+      "Système Android intégré (pas besoin de TV Stick)",
+      "Mise au point automatique",
+      "Correction automatique de la distorsion trapézoïdale",
+      "Correction 4P",
+      "Moteur optique entièrement scellé (anti-poussière, dissipation chaleur, réduction bruit)"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_max": "98 pouces",
+    "duree_vie_lampe": "30000 heures (LED)"
+  },
+  {
+    "id": "jimveo-e30",
+    "nom": "Jimveo Projecteur domestique E30",
+    "description": "Le projecteur portable Jimveo E30 est le projecteur LCD à mise au point automatique qui obtient des images claires. Il dispose d'une correction automatique verticale et horizontale (±50°). Il offre une prise en charge native 1080P 4K, Wi-Fi et Bluetooth 5.2. Il est idéal pour le home cinéma et les présentations grâce à la lecture de fichiers Office via USB.",
+    "prix": 239,
+    "image": "images/e30.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi",
+      "bluetooth": "Bluetooth 5.2",
+      "ports": [
+        "HDMI x2",
+        "USB x2",
+        "AV x1",
+        "Jack Audio in and out 3.5mm",
+        "RJ45 x1",
+        "RS232C Din 9 broches x1"
+      ]
+    },
+    "luminosite": "600 ANSI Lumens",
+    "contraste": "18000:1",
+    "resolution": "1920x1080 (Full HD natif, support 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Non spécifié",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Correction automatique verticale et horizontale (±50°)",
+      "Lecture Excel/Word/PPT via USB",
+      "Mediaplayer intégré",
+      "Compatible avec le réseau LAN",
+      "Mise en miroir de l’écran"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "40 pouces",
+    "taille_image_max": "150 pouces",
+    "duree_vie_lampe": "30000 heures (LED)"
+  },
+  {
+    "id": "yaber-l2s",
+    "nom": "Yaber L2s",
+    "description": "Projecteur home cinéma avec autofocus, correction trapézoïdale automatique, Wi-Fi, et fonctionnement silencieux. Supporte la mise en miroir d'écran.",
+    "prix": 229,
+    "image": "images/l2s.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6",
+      "bluetooth": "Bluetooth 5.1",
+      "ports": ["HDMI x1", "USB x1", "Jack 3.5mm (Sortie audio)"],
+      "autres": ["Screencast"]
+    },
+    "luminosite": "700 ANSI Lumens",
+    "contraste": "Non spécifié",
+    "resolution": "1920x1080 (Full HD native)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "35 dB",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Autofocus",
+      "Correction trapézoïdale verticale automatique",
+      "Zoom 50-100%",
+      "Taille de projection 40-150 pouces",
+      "Rapport de projection 1.38:1",
+      "Screencast (partage d'écran)"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "40 pouces",
+    "taille_image_max": "150 pouces",
+    "rapport_projection": "1.38:1",
+    "duree_vie_lampe": "LED"
+  },
+  {
+    "id": "yaber-pro-v9",
+    "nom": "Yaber Pro V9",
+    "description": "Projecteur intelligent 1080P/4K avec autofocus intelligent et correction trapézoïdale 6D automatique. Offre 600 ANSI Lumens, Wi-Fi 6, Bluetooth 5.2 et un moteur entièrement scellé, idéal pour le divertissement et les présentations.",
+    "prix": 209,
+    "image": "images/prov9.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6 (2.4 GHz & 5 GHz)",
+      "bluetooth": "Bluetooth 5.2",
+      "ports": ["HDMI x2", "USB x2", "AV x1", "Jack 3.5mm (sortie audio)"]
+    },
+    "luminosite": "500 ANSI Lumens",
+    "contraste": "30000:1",
+    "resolution": "1920x1080 (Full HD native, support 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Faible (moteur entièrement scellé, non spécifié en dB)",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Mise au point automatique intelligente",
+      "Correction automatique de la distorsion trapézoïdale 6D",
+      "Haut-parleur Hi-Fi amélioré",
+      "Moteur entièrement scellé (anti-poussière)",
+      "Taille de projection 50-300 pouces (150 pouces recommandés)",
+      "Zoom 50-100%",
+      "Lecture directe de fichiers Microsoft Office via USB",
+      "Sac de projecteur compact et portable inclus"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "50 pouces",
+    "taille_image_max": "300 pouces",
+    "rapport_projection": "1.2:1",
+    "duree_vie_lampe": "60000 heures (LED)"
+  }
+]

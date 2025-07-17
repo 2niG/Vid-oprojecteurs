@@ -1,0 +1,467 @@
+/* General Body & Typography */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eef1f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Container for consistent content width */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1.5rem 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.header-logo {
+    max-height: 130px;
+    width: auto;
+    vertical-align: middle;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header-content {
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.1em;
+    opacity: 0.9;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+/* Main Layout - Grid for Sidebar and Content */
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Default to single column for mobile */
+    gap: 30px;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+@media (min-width: 992px) { /* Desktop layout */
+    .content-grid {
+        grid-template-columns: 280px 1fr; /* Sidebar fixed width, content fills rest */
+    }
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.sidebar h2 {
+    color: #007bff;
+    margin-top: 0;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.filter-group {
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.filter-group:last-of-type {
+    border-bottom: none;
+}
+
+.filter-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    font-size: 0.95em;
+}
+
+.filter-group input[type="text"],
+.filter-group input[type="number"],
+.filter-group select {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 0.9em;
+    box-sizing: border-box;
+}
+
+.filter-group input[type="text"]:focus,
+.filter-group input[type="number"]:focus,
+.filter-group select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.price-range {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.price-range input {
+    flex: 1;
+}
+
+/* Buttons */
+button {
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+#reset-filters {
+    background-color: #6c757d;
+}
+
+#reset-filters:hover {
+    background-color: #5a6268;
+}
+
+/* Product List Styling */
+#product-list-section {
+    padding-right: 0;
+}
+
+#projector-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.projector-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.projector-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.projector-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-bottom: 1px solid #eee;
+}
+
+.projector-card-content {
+    padding: 18px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.projector-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #007bff;
+    font-size: 1.4em;
+}
+
+.projector-card p {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 10px;
+    flex-grow: 1;
+}
+
+.projector-card .price {
+    font-weight: bold;
+    color: #e67e22;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+.projector-card button {
+    margin: 0;
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 0.95em;
+    background-color: #28a745;
+}
+
+.projector-card button:hover {
+    background-color: #218838;
+}
+
+/* No Results Message */
+#no-results {
+    font-size: 1.2em;
+    color: #777;
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    background-color: #fcfcfc;
+    grid-column: 1 / -1;
+}
+
+/* Comparison Section Styling */
+#comparison-section {
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.08);
+}
+
+#comparison-table-container {
+    overflow-x: auto;
+    margin-top: 20px;
+}
+
+#comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+#comparison-table th,
+#comparison-table td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#comparison-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+    font-size: 1em;
+    white-space: normal;
+}
+
+/* Styling for projector name and remove button inside comparison table header */
+#comparison-table th > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    color: #007bff;
+}
+
+#comparison-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#comparison-table tbody tr:hover {
+    background-color: #eef5ff;
+}
+
+#comparison-table .remove-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8em;
+    transition: background-color 0.3s ease;
+    width: auto;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+#comparison-table .remove-btn:hover {
+    background-color: #c82333;
+}
+
+#clear-comparison {
+    margin-top: 25px;
+    padding: 12px 25px;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#clear-comparison:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    background-color: #34495e;
+    color: white;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.1);
+}
+
+/* --- Score Display Enhancements --- */
+
+/* General container for score display */
+.score-display {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between "Note:" text and the bar */
+    margin-bottom: 10px; /* Space below the score block */
+    font-size: 0.95em; /* Slightly smaller font for score info */
+}
+
+/* Container for the progress bar */
+.score-bar-container {
+    flex-grow: 1; /* Allows the bar to take up available space */
+    max-width: 150px; /* Max width for consistency */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden; /* Ensures the inner bar stays within rounded corners */
+    height: 20px; /* Height of the bar */
+    position: relative; /* Needed for absolute positioning of inner bar and text */
+}
+
+/* The actual progress bar */
+.score-bar {
+    height: 100%;
+    background-color: #4CAF50; /* Default green for good scores */
+    width: 0; /* Initial width, will be set by JS */
+    transition: width 0.7s ease-out; /* Smooth animation when loading/changing */
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px; /* Match container border-radius */
+}
+
+/* Text overlay on the progress bar */
+.score-bar-container .score-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 20px; /* Vertically center the text */
+    color: #333; /* Darker text for readability */
+    font-weight: bold;
+    font-size: 0.85em; /* Slightly smaller text */
+    z-index: 1; /* Ensures text is above the colored bar */
+    text-shadow: 0 0 2px rgba(255,255,255,0.7); /* Subtle shadow for better contrast */
+}
+
+/* Color variations for score bars based on score ranges */
+.score-bar.high {
+    background-color: #4CAF50; /* Green */
+}
+
+.score-bar.medium {
+    background-color: #ffc107; /* Orange/Yellow */
+}
+
+.score-bar.low {
+    background-color: #f44336; /* Red */
+}
+
+/* --- Comparison Table Score Display --- */
+/* (Similar styles, but potentially adjusted for table cell constraints) */
+#comparison-table .score-bar-container-comparison {
+    width: 100%; /* Take full width of the table cell */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 18px; /* Slightly smaller height for table */
+    position: relative;
+    margin: 5px auto; /* Centered in the cell, with a little vertical margin */
+}
+
+#comparison-table .score-bar-container-comparison .score-bar {
+    height: 100%;
+    width: 0;
+    transition: width 0.7s ease-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+}
+
+#comparison-table .score-bar-container-comparison .score-text {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    line-height: 18px; /* Vertically center the text */
+    color: #333;
+    font-weight: bold;
+    font-size: 0.75em; /* Smaller text for table */
+    z-index: 1;
+    text-shadow: 0 0 2px rgba(255,255,255,0.7);
+}
+
+/* Apply color classes to table score bars as well */
+#comparison-table .score-bar-container-comparison .score-bar.high {
+    background-color: #4CAF50;
+}
+#comparison-table .score-bar-container-comparison .score-bar.medium {
+    background-color: #ffc107;
+}
+#comparison-table .score-bar-container-comparison .score-bar.low {
+    background-color: #f44336;
+}
