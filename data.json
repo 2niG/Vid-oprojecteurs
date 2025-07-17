@@ -126,41 +126,41 @@
   },
   {
     "id": "jimveo-e30",
-    "nom": "Jimveo Projecteur domestique E30",
-    "description": "Le projecteur portable Jimveo E30 est le projecteur LCD à mise au point automatique qui obtient des images claires. Il dispose d'une correction automatique verticale et horizontale (±50°). Il offre une prise en charge native 1080P 4K, Wi-Fi et Bluetooth 5.2. Il est idéal pour le home cinéma et les présentations grâce à la lecture de fichiers Office via USB.",
-    "prix": 239,
+    "nom": "Jimveo E30",
+    "description": "Vidéoprojecteur 4K avec mise au point automatique avancée et capot de lentille automatique pour une protection optimale. Offre une luminosité de 850 ANSI Lumens, une résolution native Full HD 1080P (support 4K) et des couleurs riches. Dispose du Wi-Fi 6, du Bluetooth 5.2 bidirectionnel, d'une correction 6D automatique et d'une fonction de zoom flexible. Idéal pour le home cinéma, les présentations et les petites réunions grâce à sa lecture directe de fichiers Office via USB.",
+    "prix": 199,
     "image": "e30.jpg",
     "connectivite": {
-      "wifi": "Wi-Fi",
-      "bluetooth": "Bluetooth 5.2",
-      "ports": [
-        "HDMI x2",
-        "USB x2",
-        "AV x1",
-        "Jack Audio in and out 3.5mm",
-        "RJ45 x1",
-        "RS232C Din 9 broches x1"
-      ]
+      "wifi": "Wi-Fi 6 (2.4G & 5G)",
+      "bluetooth": "Bluetooth 5.2 Bidirectionnel",
+      "ports": ["HDMI x1", "AV", "USB x1"]
     },
-    "luminosite": "600 ANSI Lumens",
-    "contraste": "18000:1",
-    "resolution": "1920x1080 (Full HD natif, support 4K)",
+    "luminosite": "850 ANSI Lumens",
+    "contraste": "30000:1",
+    "resolution": "1920x1080 (Full HD native, support 4K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Non spécifié",
     "android_tv": false,
     "os_smart": false,
     "fonctionnalites_sup": [
-      "Correction automatique verticale et horizontale (±50°)",
-      "Lecture Excel/Word/PPT via USB",
-      "Mediaplayer intégré",
-      "Compatible avec le réseau LAN",
-      "Mise en miroir de l’écran"
+      "Capot de lentille automatique (unique sur le marché des vidéoprojecteurs 4K)",
+      "Évitement automatique d'obstacle",
+      "Résistant à la poussière",
+      "Correction 6D automatique",
+      "Correction à 4 points",
+      "Zoom de 100% à 50%",
+      "Haut-parleurs stéréo intégrés de 12W",
+      "Profondeur de couleur de 1,07 milliard de nuances",
+      "Lecture directe des fichiers Excel, Word et PPT via USB",
+      "Lentille en verre à faible perte de lumière",
+      "Compatible avec clé TV ou connexion HDMI pour streaming (restrictions HDCP)"
     ],
     "technologie_affichage": "LCD",
-    "taille_image_min": "40 pouces",
-    "taille_image_max": "150 pouces",
-    "duree_vie_lampe": "30000 heures (LED)"
+    "taille_image_min": "Non spécifié",
+    "taille_image_max": "400 Pouces",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "Non spécifié"
   },
   {
     "id": "yaber-L2s",
