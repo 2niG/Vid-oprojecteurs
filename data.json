@@ -4,7 +4,7 @@
     "nom": "WiMiUS Projecteur domestique P62",
     "description": "Vidéoprojecteur WiMiUS avec autofocus et correction trapézoïdale automatique verticale et horizontale, 700 ANSI Lumens et Wi-Fi. Idéal pour le home cinéma et les jeux.",
     "prix": 199,
-    "image": "images/p62.jpg",
+    "image": "p62.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6",
       "bluetooth": "Bluetooth 5.2",
@@ -34,7 +34,7 @@
     "nom": "WiMiUS Projecteur K9",
     "description": "Le premier projecteur WiMiUS avec applications Netflix sous licence officielle et Dolby Audio immersif. Doté d'autofocus laser, correction trapézoïdale automatique, 700 ANSI Lumens, Wi-Fi 6 et un moteur optique entièrement fermé.",
     "prix": 239,
-    "image": "images/k9.jpg",
+    "image": "k9.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6",
       "bluetooth": "Bluetooth 5.2",
@@ -68,7 +68,7 @@
     "nom": "WiMiUS Projecteur intelligent P64",
     "description": "Projecteur intelligent doté de la mise au point et correction trapézoïdale automatiques 6D, Wi-Fi 6 ultra-rapide. Offre une qualité d'image Full HD 1080P/4K avec un moteur optique entièrement scellé.",
     "prix": 199,
-    "image": "images/p64.jpg",
+    "image": "p64.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6",
       "bluetooth": "Bluetooth 5.2 (Bidirectionnel)",
@@ -99,7 +99,7 @@
     "nom": "Toptro X7",
     "description": "Projecteur intelligent 1080P/4K avec système Android intégré (Netflix, YouTube), autofocus et correction trapézoïdale automatiques, Wi-Fi, Bluetooth 5.2 et un moteur optique entièrement scellé.",
     "prix": 199,
-    "image": "images/x7.jpg",
+    "image": "x7.jpg",
     "connectivite": {
       "wifi": "Wi-Fi",
       "bluetooth": "Bluetooth 5.2",
@@ -129,7 +129,7 @@
     "nom": "Jimveo Projecteur domestique E30",
     "description": "Le projecteur portable Jimveo E30 est le projecteur LCD à mise au point automatique qui obtient des images claires. Il dispose d'une correction automatique verticale et horizontale (±50°). Il offre une prise en charge native 1080P 4K, Wi-Fi et Bluetooth 5.2. Il est idéal pour le home cinéma et les présentations grâce à la lecture de fichiers Office via USB.",
     "prix": 239,
-    "image": "images/e30.jpg",
+    "image": "e30.jpg",
     "connectivite": {
       "wifi": "Wi-Fi",
       "bluetooth": "Bluetooth 5.2",
@@ -167,7 +167,7 @@
     "nom": "Yaber L2s",
     "description": "Projecteur home cinéma avec autofocus, correction trapézoïdale automatique, Wi-Fi, et fonctionnement silencieux. Supporte la mise en miroir d'écran.",
     "prix": 229,
-    "image": "images/l2s.jpg",
+    "image": "l2s.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6",
       "bluetooth": "Bluetooth 5.1",
@@ -201,7 +201,7 @@
     "nom": "Yaber Pro V9",
     "description": "Projecteur intelligent 1080P/4K avec autofocus intelligent et correction trapézoïdale 6D automatique. Offre 600 ANSI Lumens, Wi-Fi 6, Bluetooth 5.2 et un moteur entièrement scellé, idéal pour le divertissement et les présentations.",
     "prix": 209,
-    "image": "images/prov9.jpg",
+    "image": "prov9.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6 (2.4 GHz & 5 GHz)",
       "bluetooth": "Bluetooth 5.2",
