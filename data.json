@@ -4,7 +4,7 @@
     "nom": "WiMiUS Projecteur domestique P62",
     "description": "Vidéoprojecteur WiMiUS avec autofocus et correction trapézoïdale automatique verticale et horizontale, 700 ANSI Lumens et Wi-Fi. Idéal pour le home cinéma et les jeux.",
     "prix": 199,
-    "image": "p62.jpg",
+    "image": "P62.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6",
       "bluetooth": "Bluetooth 5.2",
@@ -68,7 +68,7 @@
     "nom": "WiMiUS Projecteur intelligent P64",
     "description": "Projecteur intelligent doté de la mise au point et correction trapézoïdale automatiques 6D, Wi-Fi 6 ultra-rapide. Offre une qualité d'image Full HD 1080P/4K avec un moteur optique entièrement scellé.",
     "prix": 199,
-    "image": "p64.jpg",
+    "image": "P64.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6",
       "bluetooth": "Bluetooth 5.2 (Bidirectionnel)",
