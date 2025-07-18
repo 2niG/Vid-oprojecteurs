@@ -263,5 +263,39 @@
     "taille_image_max": "150 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "25000 heures"
+  },
+  {
+    "id": "yaber-pro-v7",
+    "nom": "Yaber Pro V7",
+    "description": "Le Yaber Pro V7 est le premier vidéoprojecteur LCD 1080P doté de la technologie d'étalonnage automatique 6D pour une correction automatique de la distorsion trapézoïdale. Il offre une image nette instantanément, même en cas de mouvement. Bénéficiant de la technologie BASIC Smart Engine, il est 25% plus lumineux que les autres projecteurs LCD 1080P. Il intègre le Bluetooth 5.0 pour une connectivité audio facile et une fonction Infinity Super Zoom Numérique pour ajuster la taille de l'image sans déplacer le projecteur. Sa large compatibilité en fait un centre de divertissement polyvalent.",
+    "prix": 219,
+    "image": "prov7.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 5",
+      "bluetooth": "Bluetooth 5.0",
+      "ports": ["HDMI x2", "USB x2", "AV x1", "Jack 3.5mm (prise casque)"]
+    },
+    "luminosite": "600 ANSI Lumens",
+    "contraste": "25000:1",
+    "resolution": "1920x1080 (Full HD native)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Non spécifié",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Correction automatique de la distorsion trapézoïdale 6D (le premier sur le marché)",
+      "Correction trapézoïdale à 4 points (manuelle : horizontale ±50, verticale ±50)",
+      "Correction trapézoïdale 4D",
+      "Technologie BASIC Smart Engine",
+      "Haut-parleur de type enceinte sonore intégré",
+      "Fonction Infinity Super Zoom Numérique (-50%)",
+      "Large compatibilité avec divers appareils (TV Box Android, Amazon Fire TV Stick, Chromecast, PC, ordinateur portable, tablette, haut-parleurs externes, Xbox, PS5, lecteur DVD, lecteur de carte, clé USB, lecteurs multimédias, iPad, iPhone, smartphone Android)"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "50 pouces",
+    "taille_image_max": "400 pouces",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "Non spécifié"
   }
 ]
