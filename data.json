@@ -297,5 +297,40 @@
     "taille_image_max": "400 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "Non spécifié"
+  },
+  {
+    "id": "apolo-p40",
+    "nom": "Apollo P40",
+    "description": "Le vidéoprojecteur Apollo P40 offre une luminosité de 700 ANSI Lumens, une résolution native Full HD 1080p avec décodage 4K et HDR10 pour une image détaillée et des couleurs vives. Doté d'un autofocus et d'une auto-correction trapézoïdale 6D rapides, ainsi que d'une connectivité WiFi 5G et Bluetooth ultra-rapide, il est parfait pour un cinéma à domicile. Sa conception anti-poussière assure une durabilité, et ses options de connectivité flexibles permettent de l'utiliser avec une multitude d'appareils, y compris la synchronisation de téléphone iOS sans Wi-Fi via USB.",
+    "prix": 246,
+    "image": "p40.jpg",
+    "connectivite": {
+      "wifi": "WiFi 5G",
+      "bluetooth": "Bluetooth",
+      "ports": ["USB", "AV", "Audio (jack 3.5mm)"]
+    },
+    "luminosite": "700 ANSI Lumens (21 000 lumens)",
+    "contraste": "15000:1",
+    "resolution": "1920x1080 (Full HD native, décodage 4K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Non spécifié",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Décodage HDR10",
+      "80% d'uniformité de luminosité",
+      "Autocorrection du trapèze 6D (±50°) en 3 secondes",
+      "Fonction de zoom (100% à 50%)",
+      "Puce DSP pour un son clair et profond",
+      "Conception optique entièrement scellée (anti-poussière)",
+      "Synchronisation de téléphone iOS via câble USB sans Wi-Fi",
+      "Supporte les types de lecture FAT, NTFS, FAT32"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "Non spécifié",
+    "taille_image_max": "150 pouces (grand écran), 80\"-100\" (recommandé)",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "Non spécifié"
   }
 ]
