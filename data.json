@@ -305,8 +305,8 @@
     "prix": 246,
     "image": "p40.jpg",
     "connectivite": {
-      "wifi": "WiFi 5G",
-      "bluetooth": "Bluetooth",
+      "wifi": "WiFi 5",
+      "bluetooth": "Bluetooth 5.0",
       "ports": ["USB", "AV", "Audio (jack 3.5mm)"]
     },
     "luminosite": "700 ANSI Lumens (21 000 lumens)",
@@ -330,6 +330,37 @@
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
     "taille_image_max": "150 pouces (grand écran), 80\"-100\" (recommandé)",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "Non spécifié"
+  },
+  {
+    "id": "xiaomi-smart-projector-l1-pro",
+    "nom": "Xiaomi Smart Projector L1 PRO",
+    "description": "Le Xiaomi Smart Projector L1 PRO offre une expérience de cinéma à domicile avec sa résolution Full HD 1080p et 400 ANSI Lumens, garantissant une qualité d'image exceptionnelle. Il propose un son immersif grâce à ses haut-parleurs intégrés de 5W et la technologie Dolby Audio. Facile d'accès, il intègre Google TV et Netflix pour un accès direct à vos contenus favoris, transformant votre salon en véritable salle de cinéma.",
+    "prix": 270,
+    "image": "L1pro.jpg",
+    "connectivite": {
+      "wifi": "WiFi 5",
+      "bluetooth": "Bluetooth 5.0",
+      "ports": ["HDMI x1", "USB x1", "Jack 3.5mm (prise casque)"]
+    },
+    "luminosite": "400 ANSI Lumens",
+    "contraste": "1000:1",
+    "resolution": "1920x1080 (Full HD native)",
+    "autofocus_auto": false,
+    "reglage_trapezoidal_auto": false,
+    "bruit_db": "Non spécifié",
+    "android_tv": false,
+    "os_smart": true,
+    "fonctionnalites_sup": [
+      "Haut-parleurs 5W",
+      "Technologie Dolby Audio",
+      "Google TV intégré",
+      "Netflix intégré"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "40 pouces",
+    "taille_image_max": "120 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "Non spécifié"
   }
