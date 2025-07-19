@@ -10,7 +10,7 @@
       "bluetooth": "Bluetooth 5.2",
       "ports": ["HDMI x2", "USB x2", "Mini Jack Audio in and out"]
     },
-    "luminosite": "700 ANSI Lumens",
+    "luminosite": "600 ANSI Lumens",
     "contraste": "20000:1",
     "resolution": "1920x1080 (Full HD natif, support 4K)",
     "autofocus_auto": true,
@@ -21,14 +21,13 @@
     "fonctionnalites_sup": [
       "Correction trapézoïdale automatique verticale et horizontale",
       "Lecteur multimédia intégré",
-      "Compatible réseau Wi-Fi",
       "Mise en miroir d'écran (Airplay, Miracast)"
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "50 pouces",
     "taille_image_max": "300 pouces",
     "duree_vie_lampe": "30000 heures (LED)",
-    "distance_projection": "1.5m - 5m"
+    "distance_projection": "1m - 5m"
   },
   {
     "id": "wimius-k9",
@@ -41,8 +40,8 @@
       "bluetooth": "Bluetooth 5.2",
       "ports": ["HDMI x2", "USB x2", "RJ45", "Jack 3.5mm"]
     },
-    "luminosite": "700 ANSI Lumens",
-    "contraste": "20000:1",
+    "luminosite": "800 ANSI Lumens",
+    "contraste": "30000:1",
     "resolution": "1920x1080 (Full HD natif, décodage 4K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
@@ -53,17 +52,16 @@
       "Netflix sous licence officielle",
       "Support Dolby Audio",
       "Mise au point laser automatique",
-      "Correction trapézoïdale automatique",
       "Zoom 50-100%",
       "Moteur d'éclairage entièrement fermé (anti-poussière)",
       "Taux de rafraîchissement 60 Hz"
     ],
     "technologie_affichage": "LCD",
-    "taille_image_min": "50 pouces",
-    "taille_image_max": "150 pouces",
+    "taille_image_min": "30 pouces",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "1.3:1",
     "duree_vie_lampe": "60000 heures (LED)",
-    "distance_projection": "1.3m - 4.5m"
+    "distance_projection": "1m - 5m"
   },
   {
     "id": "wimius-p64",
@@ -76,7 +74,7 @@
       "bluetooth": "Bluetooth 5.2 (Bidirectionnel)",
       "ports": ["HDMI x2", "USB x2", "AV x1", "Audio Out 3.5mm"]
     },
-    "luminosite": "700 ANSI Lumens",
+    "luminosite": "500 ANSI Lumens",
     "contraste": "20000:1",
     "resolution": "1920x1080 (Full HD natif, support 4K)",
     "autofocus_auto": true,
@@ -85,17 +83,16 @@
     "android_tv": false,
     "os_smart": false,
     "fonctionnalites_sup": [
-      "Mise au point automatique",
       "Correction trapézoïdale automatique omnidirectionnelle (4 points)",
       "Zoom 50-100%",
       "Moteur optique entièrement scellé (anti-poussière)"
     ],
     "technologie_affichage": "LCD",
-    "taille_image_min": "50 pouces",
+    "taille_image_min": "40 pouces",
     "taille_image_max": "300 pouces",
-    "rapport_projection": "1.3:1",
+    "rapport_projection": "1.4:1",
     "duree_vie_lampe": "60000 heures (LED)",
-    "distance_projection": "1.2m - 4.8m"
+    "distance_projection": "1.5m - 6m"
   },
   {
     "id": "toptro-x7",
@@ -109,7 +106,7 @@
       "ports": ["HDMI x1", "USB x1", "Jack 3.5mm (Entrée et sortie)"]
     },
     "luminosite": "600 ANSI Lumens",
-    "contraste": "20000:1",
+    "contraste": "24000:1",
     "resolution": "1920x1080 (Full HD native, support 4K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
@@ -117,16 +114,14 @@
     "android_tv": true,
     "os_smart": "Android 9.0 (Netflix, Youtube préinstallés)",
     "fonctionnalites_sup": [
-      "Système Android intégré (pas besoin de TV Stick)",
-      "Mise au point automatique",
-      "Correction automatique de la distorsion trapézoïdale",
       "Correction 4P",
       "Moteur optique entièrement scellé (anti-poussière, dissipation chaleur, réduction bruit)"
     ],
     "technologie_affichage": "LCD",
-    "taille_image_max": "98 pouces",
+    "taille_image_max": "300 pouces",
+    "rapport_projection": "1.33:1",
     "duree_vie_lampe": "30000 heures (LED)",
-    "distance_projection": "1.0m - 3.0m"
+    "distance_projection": "1.5m - 3.5m"
   },
   {
     "id": "jimveo-e30",
@@ -188,11 +183,7 @@
     "android_tv": false,
     "os_smart": false,
     "fonctionnalites_sup": [
-      "Autofocus",
-      "Correction trapézoïdale verticale automatique",
       "Zoom 50-100%",
-      "Taille de projection 40-150 pouces",
-      "Rapport de projection 1.38:1",
       "Screencast (partage d'écran)"
     ],
     "technologie_affichage": "LCD",
@@ -200,7 +191,7 @@
     "taille_image_max": "150 pouces",
     "rapport_projection": "1.38:1",
     "duree_vie_lampe": "LED",
-    "distance_projection": "1.2m - 4.5m"
+    "distance_projection": "1.2m - 4.4m"
   },
   {
     "id": "yaber-pro-v9",
@@ -214,7 +205,7 @@
       "ports": ["HDMI x2", "USB x2", "AV x1", "Jack 3.5mm (sortie audio)"]
     },
     "luminosite": "500 ANSI Lumens",
-    "contraste": "30000:1",
+    "contraste": "8000:1",
     "resolution": "1920x1080 (Full HD native, support 4K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
@@ -226,13 +217,12 @@
       "Correction automatique de la distorsion trapézoïdale 6D",
       "Haut-parleur Hi-Fi amélioré",
       "Moteur entièrement scellé (anti-poussière)",
-      "Taille de projection 50-300 pouces (150 pouces recommandés)",
       "Zoom 50-100%",
       "Lecture directe de fichiers Microsoft Office via USB",
       "Sac de projecteur compact et portable inclus"
     ],
     "technologie_affichage": "LCD",
-    "taille_image_min": "50 pouces",
+    "taille_image_min": "30 pouces",
     "taille_image_max": "300 pouces",
     "rapport_projection": "1.2:1",
     "duree_vie_lampe": "60000 heures (LED)",
@@ -249,12 +239,12 @@
       "bluetooth": "Bluetooth 5.1",
       "ports": ["USB x1", "HDMI x1"]
     },
-    "luminosite": "400 lumens ISO",
+    "luminosite": "500 ANSI Lumens",
     "contraste": "1000:1",
     "resolution": "1920x1080 (Full HD native)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
-    "bruit_db": "Non spécifié",
+    "bruit_db": "28 dB",
     "android_tv": true,
     "os_smart": true,
     "fonctionnalites_sup": [
@@ -268,9 +258,9 @@
     "technologie_affichage": "DLP",
     "taille_image_min": "80 pouces",
     "taille_image_max": "150 pouces",
-    "rapport_projection": "Non spécifié",
+    "rapport_projection": "1.2:1",
     "duree_vie_lampe": "25000 heures",
-    "distance_projection": "2.0m - 4.0m"
+    "distance_projection": "1m - 5m"
   },
   {
     "id": "yaber-pro-v7",
@@ -293,8 +283,6 @@
     "os_smart": false,
     "fonctionnalites_sup": [
       "Correction automatique de la distorsion trapézoïdale 6D (le premier sur le marché)",
-      "Correction trapézoïdale à 4 points (manuelle : horizontale ±50, verticale ±50)",
-      "Correction trapézoïdale 4D",
       "Technologie BASIC Smart Engine",
       "Haut-parleur de type enceinte sonore intégré",
       "Fonction Infinity Super Zoom Numérique (-50%)",
@@ -302,7 +290,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "50 pouces",
-    "taille_image_max": "400 pouces",
+    "taille_image_max": "350 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "Non spécifié",
     "distance_projection": "1.5m - 7.5m"
@@ -319,7 +307,7 @@
       "ports": ["USB", "AV", "Audio (jack 3.5mm)"]
     },
     "luminosite": "700 ANSI Lumens (21 000 lumens)",
-    "contraste": "15000:1",
+    "contraste": "20000:1",
     "resolution": "1920x1080 (Full HD native, décodage 4K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
@@ -337,9 +325,9 @@
       "Supporte les types de lecture FAT, NTFS, FAT32"
     ],
     "technologie_affichage": "LCD",
-    "taille_image_min": "Non spécifié",
-    "taille_image_max": "150 pouces (grand écran), 80\"-100\" (recommandé)",
-    "rapport_projection": "Non spécifié",
+    "taille_image_min": "30 pouces",
+    "taille_image_max": "150 pouces",
+    "rapport_projection": "1.4:1",
     "duree_vie_lampe": "Non spécifié",
     "distance_projection": "1.3m - 4.5m"
   },
@@ -373,6 +361,6 @@
     "taille_image_max": "120 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "Non spécifié",
-    "distance_projection": "1.2m - 3.2m"
+    "distance_projection": "0.8m - 5m"
   }
 ]
