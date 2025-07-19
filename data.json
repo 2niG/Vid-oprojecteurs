@@ -365,7 +365,7 @@
     "nom": "Neopix 200",
     "description": "Le Neopix 200 est un vidéoprojecteur portable Full HD 1080p offrant une luminosité de 200 lumens et un contraste de 3000:1, idéal pour une utilisation nomade. Il peut projeter une image allant jusqu'à 80 pouces et intègre des haut-parleurs. Sa connectivité flexible inclut des ports HDMI, USB et un mini Jack Stéréo 3.5 mm, le rendant compatible avec divers appareils pour une durée de vie de lampe de 30 000 heures.",
     "prix": 149,
-    "image": "L1pro.jpg",
+    "image": "pix200.jpg",
     "connectivite": {
       "wifi": false,
       "bluetooth": false,
@@ -396,5 +396,37 @@
     "rapport_projection": "1.35",
     "duree_vie_lampe": "30000 h",
     "distance_projection": "0.8m - 2m"
+  },
+  {
+    "id": "neopix-320",
+    "nom": "NeoPix 320",
+    "description": "Le NeoPix 320 est un vidéoprojecteur Full HD 1080p offrant des images jusqu'à 80 pouces. Il propose une expérience de divertissement immersive grâce à son système audio 2.1 intégré (deux haut-parleurs et un caisson de basses) et un accès illimité au streaming via des applications préchargées comme Netflix, Amazon Prime et Disney+. Sa connectivité Wi-Fi bibande assure une diffusion fluide et il est ultra-connecté avec des ports HDMI, Bluetooth et USB, permettant également la duplication d'écran sans fil. Conçu pour être très silencieux, il est parfait pour une utilisation en intérieur comme en extérieur.",
+    "prix": 139,
+    "image": "pix320.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi (bibande)",
+      "bluetooth": "Bluetooth",
+      "ports": ["HDMI", "USB"]
+    },
+    "luminosite": "250 ANSI Lumens",
+    "contraste": "3000:1",
+    "resolution": "1920x1080 (Full HD native)",
+    "autofocus_auto": false,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Très silencieux (valeur non spécifiée)",
+    "android_tv": false,
+    "os_smart": true,
+    "fonctionnalites_sup": [
+      "Images jusqu’à 80 pouces (200 cm)",
+      "Système audio 2.1 (deux haut-parleurs et un caisson de basses)",
+      "Applications préchargées (Netflix, Amazon Prime, Disney+)",
+      "Duplication d'écran via Wi-Fi (iOS, Android, Mac, PC)",
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "Non spécifié",
+    "taille_image_max": "80 pouces (200 cm)",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "30000 heures",
+    "distance_projection": "0.8m - 2.4m"
   }
 ]
