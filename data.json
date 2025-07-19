@@ -182,10 +182,7 @@
     "bruit_db": "35 dB",
     "android_tv": false,
     "os_smart": false,
-    "fonctionnalites_sup": [
-      "Zoom 50-100%",
-      "Screencast (partage d'écran)"
-    ],
+    "fonctionnalites_sup": ["Zoom 50-100%", "Screencast (partage d'écran)"],
     "technologie_affichage": "LCD",
     "taille_image_min": "40 pouces",
     "taille_image_max": "150 pouces",
@@ -362,5 +359,42 @@
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "Non spécifié",
     "distance_projection": "0.8m - 5m"
+  },
+  {
+    "id": "neopix-200",
+    "nom": "Neopix 200",
+    "description": "Le Neopix 200 est un vidéoprojecteur portable Full HD 1080p offrant une luminosité de 200 lumens et un contraste de 3000:1, idéal pour une utilisation nomade. Il peut projeter une image allant jusqu'à 80 pouces et intègre des haut-parleurs. Sa connectivité flexible inclut des ports HDMI, USB et un mini Jack Stéréo 3.5 mm, le rendant compatible avec divers appareils pour une durée de vie de lampe de 30 000 heures.",
+    "prix": 149,
+    "image": "L1pro.jpg",
+    "connectivite": {
+      "wifi": false,
+      "bluetooth": false,
+      "ports": [
+        "HDMI x2",
+        "USB x1",
+        "Mini Jack Stéréo 3.5 mm (entrée audio)",
+        "Jack 3.5mm (sortie audio)",
+        "Carte SD"
+      ]
+    },
+    "luminosite": "200 ANSI Lumens",
+    "contraste": "3000:1",
+    "resolution": "1920x1080 (Full HD native)",
+    "autofocus_auto": false,
+    "reglage_trapezoidal_auto": false,
+    "bruit_db": "35 dB",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Haut-parleur intégré",
+      "Mode image TV 16:9",
+      "Portable"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "Non spécifié",
+    "taille_image_max": "80 pouces (203 cm)",
+    "rapport_projection": "1.35",
+    "duree_vie_lampe": "30000 h",
+    "distance_projection": "0.8m - 2m"
   }
 ]
