@@ -23,20 +23,23 @@ document.addEventListener('DOMContentLoaded', () => {
     // Define weights for each characteristic.
     // Weights are arbitrary and can be adjusted according to the importance you give them.
     const weights = {
-        luminosite: 0.25, // Very important
-        resolution: 0.30, // Most important
-        contraste: 0.10,
+        luminosite: 0.20, // Augmenté
+        resolution: 0.20, // Augmenté
+        contraste: 0.15, // Augmenté
         prix: 0.15, // Important, inverted (cheaper = better)
-        autofocus_auto: 0.05,
-        reglage_trapezoidal_auto: 0.05,
-        bruit_db: 0.05, // Less important, inverted (less noise = better)
-        duree_vie_lampe: 0.03, // Less important
-        wifi: 0.02, // Wi-Fi 6 is better
-        bluetooth: 0.01, // Bluetooth 5.2 is better
-        ports_hdmi: 0.02, // More HDMI ports
-        os_smart: 0.02, // Presence of smart OS
-        android_tv: 0.02, // Specifically Android TV
-        fonctionnalites_sup_count: 0.03 // Count of features
+        autofocus_auto: 0.08, // Augmenté
+        reglage_trapezoidal_auto: 0.08, // Augmenté
+        bruit_db: 0.07, // Augmenté
+        duree_vie_lampe: 0.00, // Exclue (poids mis à 0)
+        technologie_affichage: 0.10, // Priorisé avec un poids élevé
+        wifi: 0.01, // Réduit
+        bluetooth: 0.01, // Réduit
+        ports_hdmi_usb: 0.05, // Augmenté (combiné pour HDMI et USB)
+        os_smart: 0.01, // Réduit
+        android_tv: 0.01, // Réduit
+        fonctionnalites_sup_count: 0.01, // Réduit
+        distance_projection: 0.10, // Augmenté
+        taille_image_max: 0.05 // Nouveau poids pour la taille d'image max
     };
 
     // Functions to normalize values on a 0 to 1 scale
@@ -47,15 +50,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (lumens.includes("ANSI Lumens")) {
             const numericLumens = parseFloat(lumens.replace(' ANSI Lumens', '').trim());
-            const maxAnsiLumens = 1000;
+            const maxAnsiLumens = 1000; // Ajuster si nécessaire
             return Math.min(numericLumens / maxAnsiLumens, 1);
         } else if (lumens.includes("LM")) {
             const numericLumens = parseFloat(lumens.replace('LM', '').trim());
-            const maxLmLumens = 30000;
+            const maxLmLumens = 30000; // Ajuster si nécessaire
             return Math.min(numericLumens / maxLmLumens, 1);
         } else if (lumens.includes("Lumens (LED)")) {
             const numericLumens = parseFloat(lumens.replace(' Lumens (LED)', '').trim());
-            const maxLedLumens = 5000;
+            const maxLedLumens = 5000; // Ajuster si nécessaire
             return Math.min(numericLumens / maxLedLumens, 1);
         }
         return 0; // Default for unhandled or invalid luminosity
@@ -97,24 +100,22 @@ document.addEventListener('DOMContentLoaded', () => {
         return Math.max(0, Math.min(1, 1 - ((numericDb - minDb) / (maxDb - minDb))));
     }
 
-    function normalizeDureeVieLampe(duree) {
-        if (!duree) return 0;
-        const hours = parseFloat(duree.replace(' heures (LED)', ''));
-        if (isNaN(hours)) return 0;
-        return Math.min(hours / 80000, 1); // Max 80000 hours found in your data
-    }
+    // DureeVieLampe est exclue, donc pas de normalisation ou poids à 0.
+    // function normalizeDureeVieLampe(duree) {
+    //     if (!duree) return 0;
+    //     const hours = parseFloat(duree.replace(' heures (LED)', ''));
+    //     if (isNaN(hours)) return 0;
+    //     return Math.min(hours / 80000, 1);
+    // }
 
     function normalizeWifi(wifi) {
-        if (wifi && wifi.includes("Wi-Fi 6")) return 1;
-        if (wifi && (wifi.includes("Wi-Fi 5G") || wifi.includes("Wi-Fi 5"))) return 0.8;
-        return 0; // Others or not specified
+        // Simple normalisation pour "quel que soit le type de Wifi"
+        return (wifi && wifi !== "N/A") ? 1 : 0;
     }
 
     function normalizeBluetooth(bluetooth) {
-        if (bluetooth && bluetooth.includes("5.2")) return 1;
-        if (bluetooth && bluetooth.includes("5.0")) return 0.8;
-        if (bluetooth && bluetooth.includes("4.2")) return 0.6;
-        return 0; // Others or not specified
+        // Simple normalisation pour "quel que soit le type de Bluetooth"
+        return (bluetooth && bluetooth !== "N/A") ? 1 : 0;
     }
 
     function normalizePorts(portsArray) {
@@ -132,9 +133,49 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         }
-        const maxExpectedPorts = 4;
+        const maxExpectedPorts = 4; // Ex: 2 HDMI + 2 USB
         return Math.min((hdmiCount + usbCount) / maxExpectedPorts, 1);
     }
+
+    function normalizeTechnology(technology) {
+        if (!technology || technology === "N/A") return 0;
+        // Priorise DLP, LCD. Tu peux affiner si certains sont meilleurs que d'autres.
+        const techMap = {
+            "DLP": 1.0,
+            "LCD": 0.9,
+            "LED": 0.7 // Si LED est une technologie d'affichage à part entière
+        };
+        return techMap[technology] || 0.5; // Valeur par défaut si non spécifié ou inconnu
+    }
+
+    function normalizeProjectionDistance(distanceStr) {
+        if (!distanceStr || distanceStr === "N/A" || !distanceStr.includes('m')) return 0;
+
+        const parts = distanceStr.replace('m', '').split('-').map(s => parseFloat(s.trim()));
+        if (parts.length === 2 && !isNaN(parts[0]) && !isNaN(parts[1])) {
+            const minDist = parts[0];
+            const maxDist = parts[1];
+            const range = maxDist - minDist;
+            // On peut valoriser une plage plus large, ou une distance spécifique
+            // Ici, une plage plus large est considérée comme meilleure pour la flexibilité
+            return Math.min(range / 10, 1); // Normalise sur une plage de 0 à 1 (max 10m de range)
+        } else if (parts.length === 1 && !isNaN(parts[0])) {
+            const fixedDist = parts[0];
+            const idealDist = 2; // Exemple: distance idéale de 2 mètres
+            const maxDeviation = 3; // Tolérance de 3 mètres autour de la distance idéale
+            return Math.max(0, 1 - (Math.abs(fixedDist - idealDist) / maxDeviation));
+        }
+        return 0;
+    }
+
+    function normalizeMaxImageSize(sizeStr) {
+        if (!sizeStr || sizeStr === "N/A" || !sizeStr.includes('pouces')) return 0;
+        const sizeInches = parseFloat(sizeStr.replace(' pouces', '').trim());
+        if (isNaN(sizeInches)) return 0;
+        const maxExpectedSize = 200; // Par exemple, un vidéoprojecteur qui fait 200 pouces max est excellent
+        return Math.min(sizeInches / maxExpectedSize, 1);
+    }
+
 
     // Function to calculate the score for a projector
     function calculateScore(projector) {
@@ -144,28 +185,38 @@ document.addEventListener('DOMContentLoaded', () => {
         score += normalizeResolution(projector.resolution) * weights.resolution;
         score += normalizeContraste(projector.contraste) * weights.contraste;
 
-        const maxPrice = 350;
+        const maxPrice = 350; // S'assurer que cette valeur est la bonne maximale dans tes données
         score += normalizePrix(projector.prix, maxPrice) * weights.prix;
 
         score += normalizeBoolean(projector.autofocus_auto) * weights.autofocus_auto;
         score += normalizeBoolean(projector.reglage_trapezoidal_auto) * weights.reglage_trapezoidal_auto;
         score += normalizeBruit(projector.bruit_db) * weights.bruit_db;
-        score += normalizeDureeVieLampe(projector.duree_vie_lampe) * weights.duree_vie_lampe;
+
+        // Duree de vie de la lampe est exclue
+        // score += normalizeDureeVieLampe(projector.duree_vie_lampe) * weights.duree_vie_lampe;
+
+        score += normalizeTechnology(projector.technologie_affichage) * weights.technologie_affichage;
 
         if (projector.connectivite) {
             score += normalizeWifi(projector.connectivite.wifi) * weights.wifi;
             score += normalizeBluetooth(projector.connectivite.bluetooth) * weights.bluetooth;
-            score += normalizePorts(projector.connectivite.ports) * weights.ports_hdmi;
+            score += normalizePorts(projector.connectivite.ports) * weights.ports_hdmi_usb;
         }
 
-        score += normalizeBoolean(projector.os_smart || projector.android_tv) * weights.os_smart;
-        if (projector.android_tv) {
-            score += weights.android_tv;
-        }
+        // Android TV et OS Smart sont moins importants
+        score += normalizeBoolean(projector.os_smart) * weights.os_smart;
+        score += normalizeBoolean(projector.android_tv) * weights.android_tv;
+
 
         const supFeatCount = projector.fonctionnalites_sup ? projector.fonctionnalites_sup.length : 0;
-        score += Math.min(supFeatCount / 5, 1) * weights.fonctionnalites_sup_count;
+        // Fonctionnalités sup sont peu importantes, on peut les normaliser sur un nombre max de 2 ou 3 pour limiter l'impact
+        score += Math.min(supFeatCount / 3, 1) * weights.fonctionnalites_sup_count;
 
+        score += normalizeProjectionDistance(projector.distance_projection) * weights.distance_projection;
+        score += normalizeMaxImageSize(projector.taille_image_max) * weights.taille_image_max;
+
+
+        // Assurer que le score ne dépasse pas 1 (avant multiplication par 100)
         return Math.round(score * 100);
     }
 
@@ -204,10 +255,6 @@ document.addEventListener('DOMContentLoaded', () => {
             card.classList.add('projector-card');
             card.setAttribute('data-id', projector.id);
 
-            const osSmartHtml = projector.os_smart ? `<p><strong>OS Intelligent:</strong> ${projector.os_smart}</p>` : '';
-            const autofocusText = projector.autofocus_auto ? 'Auto' : 'Manuel';
-            const keystoneText = projector.reglage_trapezoidal_auto ? 'Auto' : 'Manuel';
-
             // Determine score class for coloring the progress bar
             let scoreClass = '';
             if (projector.score >= 75) {
@@ -231,20 +278,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                     <p>${projector.description}</p>
-                    <p><strong>Connectivité:</strong> ${(projector.connectivite && projector.connectivite.wifi) || 'N/A'}, ${(projector.connectivite && projector.connectivite.bluetooth) || 'N/A'}, ${(projector.connectivite && projector.connectivite.ports && projector.connectivite.ports.join(', ')) || 'N/A'}</p>
-                    <p><strong>Luminosité:</strong> ${projector.luminosite || 'N/A'}</p>
-                    <p><strong>Contraste:</strong> ${projector.contraste || 'N/A'}</p>
-                    <p><strong>Résolution:</strong> ${projector.resolution || 'N/A'}</p>
-                    <p><strong>Technologie d'affichage:</strong> ${projector.technologie_affichage || 'N/A'}</p>
-                    <p><strong>Taille d'image min:</strong> ${projector.taille_image_min || 'N/A'}</p>
-                    <p><strong>Taille d'image max:</strong> ${projector.taille_image_max || 'N/A'}</p>
-                    <p><strong>Rapport de projection:</strong> ${projector.rapport_projection || 'N/A'}</p>
-                    <p><strong>Durée de vie lampe/source:</strong> ${projector.duree_vie_lampe || 'N/A'}</p>
-                    <p><strong>Autofocus:</strong> ${autofocusText}</p>
-                    <p><strong>Réglage Trapézoïdale:</strong> ${keystoneText}</p>
-                    <p><strong>Bruit:</strong> ${projector.bruit_db || 'N/A'}</p>
-                    <p><strong>Android TV:</strong> ${projector.android_tv ? 'Oui' : 'Non'}</p>
-                    ${osSmartHtml}
                     <button class="add-to-compare">Ajouter à la comparaison</button>
                 </div>
             `;
@@ -325,6 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { label: 'Taille d\'image min', key: 'taille_image_min', type: 'text' },
             { label: 'Taille d\'image max', key: 'taille_image_max', type: 'text' },
             { label: 'Rapport de projection', key: 'rapport_projection', type: 'text' },
+            { label: 'Distance de projection', key: 'distance_projection', type: 'text' }, // Ajout ici
             { label: 'Durée de vie lampe/source', key: 'duree_vie_lampe', type: 'text' },
             { label: 'Wi-Fi', key: 'connectivite.wifi', type: 'nested' },
             { label: 'Bluetooth', key: 'connectivite.bluetooth', type: 'nested' },
@@ -416,8 +450,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         let filteredProjectors = allProjectors.filter(projector => {
             const matchesSearch = !searchTerm ||
-                                    (projector.nom && projector.nom.toLowerCase().includes(searchTerm)) ||
-                                    (projector.description && projector.description.toLowerCase().includes(searchTerm));
+                                        (projector.nom && projector.nom.toLowerCase().includes(searchTerm)) ||
+                                        (projector.description && projector.description.toLowerCase().includes(searchTerm));
 
             const matchesPrice = (projector.prix === null || isNaN(projector.prix) || (!isNaN(minPrice) ? projector.prix >= minPrice : true)) &&
                                  (projector.prix === null || isNaN(projector.prix) || (!isNaN(maxPrice) ? projector.prix <= maxPrice : true));
@@ -431,9 +465,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (projector.luminosite.includes("ANSI Lumens")) {
                     projectorBrightnessNumeric = parseFloat(projector.luminosite.replace(' ANSI Lumens', '').trim());
                 } else if (projector.luminosite.includes("LM")) {
-                    projectorBrightnessNumeric = parseFloat(projector.luminosite.replace('LM', '').trim()) / 50;
+                    projectorBrightnessNumeric = parseFloat(projector.luminosite.replace('LM', '').trim()) / 50; // Correction pour les lumens LM
                 } else if (projector.luminosite.includes("Lumens (LED)")) {
-                    projectorBrightnessNumeric = parseFloat(projector.luminosite.replace(' Lumens (LED)', '').trim()) / 20;
+                    projectorBrightnessNumeric = parseFloat(projector.luminosite.replace(' Lumens (LED)', '').trim()) / 20; // Correction pour les lumens LED
                 } else {
                     projectorBrightnessNumeric = NaN;
                 }
