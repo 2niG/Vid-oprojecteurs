@@ -631,7 +631,7 @@
     "id": "wimius-k13",
     "nom": "Wimius K13",
     "description": "Le Wimius K13 est un vidéoprojecteur intelligent Full HD (1080p) offrant une expérience home cinéma haut de gamme. Il se distingue par sa **compatibilité Google TV** officielle, permettant un accès direct et fluide à des milliers d'applications de streaming comme Netflix, YouTube, Prime Video, Disney+ et plus de 800 chaînes en direct. Son atout majeur réside dans son **autofocus rapide** et sa **correction automatique du trapèze**, assurant une image parfaitement nette et rectangulaire en quelques secondes. Il est équipé du **Wi-Fi 6 bibande** et du **Bluetooth 5.2**, offrant une connectivité sans fil ultra-rapide et des haut-parleurs puissants avec support Dolby Audio. Son moteur optique DLP est entièrement scellé pour une durabilité accrue.",
-    "prix": "Non spécifié",
+    "prix": 280,
     "image": "k13.jpg",
     "connectivite": {
       "wifi": "Wi-Fi 6 (bibande 2.4G/5G)",
