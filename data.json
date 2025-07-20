@@ -64,7 +64,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "40 pouces",
-    "taille_image_max": "300 pouces (optimal 100-200 pouces)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "1.33:1",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 7m"
@@ -96,7 +96,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "50 pouces",
-    "taille_image_max": "300 pouces (optimal 100-200 pouces)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "1.33:1",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 7m"
@@ -135,8 +135,8 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
-    "taille_image_max": "300 pouces (optimal autour de 120 pouces)",
-    "rapport_projection": "Non spécifié (distance recommandée 8-10 pieds)",
+    "taille_image_max": "300 pouces",
+    "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 3.6m"
   },
@@ -176,7 +176,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
-    "taille_image_max": "300 pouces (certaines sources mentionnent jusqu'à 450 pouces, mais 300 est plus réaliste)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "Non spécifié (certaines sources indiquent une projection courte portée à partir de 80cm)",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "0.8m - 7m"
@@ -197,7 +197,7 @@
     "resolution": "1920x1080 (Full HD native, supporte 4K compressé via appareil externe)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
-    "bruit_db": "Environ 35 dB",
+    "bruit_db": "35 dB",
     "android_tv": false,
     "os_smart": "Non",
     "fonctionnalites_sup": [
@@ -245,9 +245,9 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "50 pouces",
-    "taille_image_max": "300 pouces (150 pouces recommandés)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "1.36:1",
-    "duree_vie_lampe": "30000 heures (certaines sources mentionnent 100 000 heures)",
+    "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 7m"
   },
   {
@@ -318,7 +318,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "45 pouces",
-    "taille_image_max": "300 pouces (optimal 100-150 pouces)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "1.36:1",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 7m"
@@ -350,7 +350,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
-    "taille_image_max": "200-300 pouces (optimal autour de 100-150 pouces)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 5m"
@@ -375,7 +375,7 @@
     "resolution": "1920x1080 (Full HD native, supporte la lecture vidéo 4K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
-    "bruit_db": "< 30 dB (en mode cinéma à 25°C)",
+    "bruit_db": "30 dB",
     "android_tv": true,
     "os_smart": "Applications préchargées (Netflix certifié, YouTube, Amazon Prime Video)",
     "fonctionnalites_sup": [
@@ -387,9 +387,9 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "40 pouces",
-    "taille_image_max": "120 pouces (recommandé : 60-100 pouces)",
+    "taille_image_max": "120 pouces",
     "rapport_projection": "1.21:1",
-    "duree_vie_lampe": "Non spécifié (technologie LED, longue durée de vie, généralement 25 000 - 30 000 heures)",
+    "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.07m - 2.66m"
   },
   {
@@ -414,7 +414,7 @@
     "resolution": "1920x1080 (Full HD native)",
     "autofocus_auto": false,
     "reglage_trapezoidal_auto": false,
-    "bruit_db": "35 dB (mode normal)",
+    "bruit_db": "35 dB",
     "android_tv": false,
     "os_smart": "Non",
     "fonctionnalites_sup": [
@@ -425,7 +425,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "24 pouces",
-    "taille_image_max": "80 pouces (203 cm)",
+    "taille_image_max": "80 pouces",
     "rapport_projection": "1.35:1",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "0.8m - 2.0m"
@@ -456,7 +456,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
-    "taille_image_max": "80 pouces (200 cm)",
+    "taille_image_max": "80 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "0.8m - 2.4m"
@@ -487,7 +487,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
-    "taille_image_max": "65 pouces (165 cm)",
+    "taille_image_max": "65 pouces",
     "rapport_projection": "1.47:1 ou 1.49:1",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "0.8m - 2m"
@@ -508,7 +508,7 @@
     "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
-    "bruit_db": "Environ 36 dB",
+    "bruit_db": "36 dB",
     "android_tv": false,
     "os_smart": "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
     "fonctionnalites_sup": [
@@ -521,7 +521,7 @@
     "taille_image_min": "40 pouces",
     "taille_image_max": "200 pouces",
     "rapport_projection": "1.36:1",
-    "duree_vie_lampe": "20000+ heures",
+    "duree_vie_lampe": "20000 heures",
     "distance_projection": "1.3m - 5m"
   },
   {
@@ -540,7 +540,7 @@
     "resolution": "1920x1080 (Full HD native, supporte 2K)",
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
-    "bruit_db": "< 27 dB (ultra silencieux)",
+    "bruit_db": "27 dB",
     "android_tv": false,
     "os_smart": "Système d'exploitation Linux avec applications préchargées et certifiées (Netflix, YouTube, Prime Video)",
     "fonctionnalites_sup": [
@@ -556,7 +556,7 @@
     "taille_image_min": "45 pouces",
     "taille_image_max": "120 pouces",
     "rapport_projection": "1.25:1 ou 1.26:1",
-    "duree_vie_lampe": "30000 heures (source lumineuse LED)",
+    "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 3.5m"
   },
   {
@@ -590,7 +590,7 @@
     "technologie_affichage": "LCD",
     "taille_image_min": "50 pouces",
     "taille_image_max": "300 pouces",
-    "rapport_projection": "Non spécifié (distance recommandée 3m pour 100 pouces)",
+    "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 10m"
   },
@@ -622,7 +622,7 @@
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
-    "taille_image_max": "300 pouces (optimal autour de 100-150 pouces)",
+    "taille_image_max": "300 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "Non spécifié (optimal pour 100 pouces à environ 2,5-3m)"
