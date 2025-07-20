@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { label: 'Taille d\'image min', key: 'taille_image_min', type: 'text' },
             { label: 'Taille d\'image max', key: 'taille_image_max', type: 'text' },
             { label: 'Rapport de projection', key: 'rapport_projection', type: 'text' },
-            { label: 'Distance de projection max', key: 'distance_projection', type: 'text' }, // Ajout ici
+            { label: 'Distance de projection', key: 'distance_projection', type: 'text' }, // Ajout ici
             { label: 'Durée de vie lampe/source', key: 'duree_vie_lampe', type: 'text' },
             { label: 'Wi-Fi', key: 'connectivite.wifi', type: 'nested' },
             { label: 'Bluetooth', key: 'connectivite.bluetooth', type: 'nested' },
