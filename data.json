@@ -558,5 +558,40 @@
     "rapport_projection": "1.25:1 ou 1.26:1",
     "duree_vie_lampe": "30000 heures (source lumineuse LED)",
     "distance_projection": "1.5m - 3.5m"
+  },
+  {
+    "id": "wimius-k8",
+    "nom": "Wimius K8",
+    "description": "Le Wimius K8 est un vidéoprojecteur LCD Full HD (1080p) conçu pour offrir une expérience home cinéma lumineuse et polyvalente. Il se distingue par sa **connectivité Wi-Fi 5G** (bibande) et **Bluetooth 5.1**, permettant une duplication d'écran sans fil rapide et la connexion à des appareils audio externes. Il est doté d'une **correction trapézoïdale 4 points et 4D** pour un ajustement flexible de l'image. Son **moteur optique entièrement scellé** le protège de la poussière, et ses **deux haut-parleurs stéréo de 10W** procurent un son immersif. Ce projecteur est capable de lire des fichiers Office/PDF directement via USB, ce qui le rend également adapté aux présentations.",
+    "prix": 130,
+    "image": "k8.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 5G (bibande 2.4G/5G)",
+      "bluetooth": "Bluetooth 5.1",
+      "ports": ["HDMI (x2)", "USB (x2)", "AV", "Audio Out (3.5mm)"]
+    },
+    "luminosite": "400 ANSI Lumens",
+    "contraste": "15000:1 (dynamique)",
+    "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
+    "autofocus_auto": false,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Non spécifié (mais souvent décrit comme silencieux)",
+    "android_tv": false,
+    "os_smart": false,
+    "fonctionnalites_sup": [
+      "Correction trapézoïdale 4 points et 4D (verticale et horizontale)",
+      "Zoom numérique (100% à 50%)",
+      "Moteur optique entièrement scellé (anti-poussière)",
+      "Haut-parleurs stéréo intégrés (2x 10W)",
+      "Duplication d'écran sans fil (pour iOS, Android, PC)",
+      "Lecture directe de fichiers Office/PDF via USB",
+      "Compatible avec Fire TV Stick, Chromecast, consoles de jeu"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "50 pouces",
+    "taille_image_max": "300 pouces",
+    "rapport_projection": "Non spécifié (distance recommandée 3m pour 100 pouces)",
+    "duree_vie_lampe": "30000 heures",
+    "distance_projection": "1.5m - 10m"
   }
 ]
