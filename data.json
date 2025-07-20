@@ -523,5 +523,40 @@
     "rapport_projection": "1.36:1",
     "duree_vie_lampe": "20000+ heures",
     "distance_projection": "1.3m - 5.0m"
+  },
+  {
+    "id": "dangbei-n2-mini",
+    "nom": "Dangbei N2 Mini",
+    "description": "Le Dangbei N2 Mini est un vidéoprojecteur intelligent et portable Full HD (1080p) conçu pour le home cinéma, particulièrement remarquable pour son **intégration officielle de Netflix**, YouTube et Amazon Prime Video via son **système d'exploitation Linux**. Il offre une installation simplifiée grâce à l'**autofocus automatique**, la **correction automatique du trapèze**, l'alignement intelligent de l'image et l'évitement d'obstacles (technologie InstanPro AI Image Setup). Son design compact inclut un **gimbal motorisé à 190°** pour une projection flexible du sol au plafond. Il est équipé du **Wi-Fi 6 bibande** et du **Bluetooth 5.2**, et dispose d'un moteur optique entièrement scellé pour une durabilité accrue et un fonctionnement ultra-silencieux.",
+    "prix": 219,
+    "image": "n2mini.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6 (bibande 2.4G/5G)",
+      "bluetooth": "Bluetooth 5.2 (bidirectionnel)",
+      "ports": ["HDMI (x1)", "USB 2.0 (x1)", "Audio Out (3.5mm)", "DC-IN"]
+    },
+    "luminosite": "200 ISO Lumens (correspondant à environ 150-200 ANSI Lumens)",
+    "contraste": "2000:1",
+    "resolution": "1920x1080 (Full HD native, supporte 2K)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "< 27 dB (ultra silencieux)",
+    "android_tv": false,
+    "os_smart": "Système d'exploitation Linux avec applications préchargées et certifiées (Netflix, YouTube, Prime Video)",
+    "fonctionnalites_sup": [
+      "Technologies d'adaptation intelligente de l'image (InstanPro AI Image Setup) : autofocus, correction trapèze auto, alignement d'image, évitement d'obstacles",
+      "Support inclinable intégré à 190° (gimbal motorisé)",
+      "Haut-parleurs intégrés 6W compatibles Dolby Audio",
+      "HDR10 et HLG supportés",
+      "Moteur optique entièrement scellé (EngineX, anti-poussière)",
+      "Duplication d'écran (Mirrorcast pour Android/Windows, Screenshare pour iOS)",
+      "Stockage interne de 8 Go"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "45 pouces",
+    "taille_image_max": "120 pouces",
+    "rapport_projection": "1.25:1 ou 1.26:1",
+    "duree_vie_lampe": "30000 heures (source lumineuse LED)",
+    "distance_projection": "Environ 1.5m - 3.5m"
   }
 ]
