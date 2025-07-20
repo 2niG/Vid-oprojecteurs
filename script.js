@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (lumens.includes("ANSI Lumens")) {
             const numericLumens = parseFloat(lumens.replace(' ANSI Lumens', '').trim());
-            const maxAnsiLumens = 1000; // Ajuster si nécessaire
+            const maxAnsiLumens = 1500; // Ajuster si nécessaire
             return Math.min(numericLumens / maxAnsiLumens, 1);
         } else if (lumens.includes("LM")) {
             const numericLumens = parseFloat(lumens.replace('LM', '').trim());
