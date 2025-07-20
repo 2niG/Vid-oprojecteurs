@@ -29,7 +29,7 @@
     "taille_image_max": "300 pouces",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "7m"
+    "distance_projection": "1.5m - 7m"
   },
   {
     "id": "wimius-k9",
@@ -67,7 +67,7 @@
     "taille_image_max": "300 pouces (optimal 100-200 pouces)",
     "rapport_projection": "1.33:1",
     "duree_vie_lampe": "30000 heures (certaines sources mentionnent 25 000h ou même 120 000h, 30 000h est une valeur courante et plus réaliste pour les LED)",
-    "distance_projection": "7m"
+    "distance_projection": "1.5m - 7m"
   },
   {
     "id": "wimius-p64",
@@ -99,7 +99,7 @@
     "taille_image_max": "300 pouces (optimal 100-200 pouces)",
     "rapport_projection": "1.33:1",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "7m"
+    "distance_projection": "1.5m - 7m"
   },
   {
     "id": "toptro-x7",
@@ -138,7 +138,7 @@
     "taille_image_max": "300 pouces (optimal autour de 120 pouces)",
     "rapport_projection": "Non spécifié (distance recommandée 8-10 pieds)",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "3.6m"
+    "distance_projection": "1.5m - 3.6m"
   },
   {
     "id": "jimveo-e30",
@@ -179,7 +179,7 @@
     "taille_image_max": "300 pouces (certaines sources mentionnent jusqu'à 450 pouces, mais 300 est plus réaliste)",
     "rapport_projection": "Non spécifié (certaines sources indiquent une projection courte portée à partir de 80cm)",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "7m"
+    "distance_projection": "0.8m - 7m"
   },
   {
     "id": "yaber-l2s",
@@ -214,7 +214,7 @@
     "taille_image_max": "150 pouces",
     "rapport_projection": "1.35:1 ou 1.38:1",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "4.4m"
+    "distance_projection": "1.3m - 4.4m"
   },
   {
     "id": "yaber-pro-v9",
@@ -248,7 +248,7 @@
     "taille_image_max": "300 pouces (150 pouces recommandés)",
     "rapport_projection": "1.36:1",
     "duree_vie_lampe": "30000 heures (certaines sources mentionnent 100 000 heures)",
-    "distance_projection": "7m"
+    "distance_projection": "1.5m - 7m"
   },
   {
     "id": "xgimi-elfin",
@@ -287,7 +287,7 @@
     "taille_image_max": "200 pouces",
     "rapport_projection": "1.2:1",
     "duree_vie_lampe": "25000 heures",
-    "distance_projection": "5m"
+    "distance_projection": "0.8m - 5m"
   },
   {
     "id": "yaber-pro-v7",
@@ -321,7 +321,7 @@
     "taille_image_max": "300 pouces (optimal 100-150 pouces)",
     "rapport_projection": "1.36:1",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "7m"
+    "distance_projection": "1.5m - 7m"
   },
   {
     "id": "apolo-p40",
@@ -353,7 +353,7 @@
     "taille_image_max": "200-300 pouces (optimal autour de 100-150 pouces)",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "5m"
+    "distance_projection": "1.5m - 5m"
   },
   {
     "id": "xiaomi-l1-pro",
@@ -390,7 +390,7 @@
     "taille_image_max": "120 pouces (recommandé : 60-100 pouces)",
     "rapport_projection": "1.21:1",
     "duree_vie_lampe": "Non spécifié (technologie LED, longue durée de vie, généralement 25 000 - 30 000 heures)",
-    "distance_projection": "2.66m"
+    "distance_projection": "1.07m - 2.66m"
   },
   {
     "id": "neopix-200",
@@ -428,7 +428,7 @@
     "taille_image_max": "80 pouces (203 cm)",
     "rapport_projection": "1.35:1",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "2.0m"
+    "distance_projection": "0.8m - 2.0m"
   },
   {
     "id": "neopix-320",
@@ -459,7 +459,7 @@
     "taille_image_max": "80 pouces (200 cm)",
     "rapport_projection": "Non spécifié",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "2.4m"
+    "distance_projection": "0.8m - 2.4m"
   },
   {
     "id": "neopix-100",
@@ -490,7 +490,7 @@
     "taille_image_max": "65 pouces (165 cm)",
     "rapport_projection": "1.47:1 ou 1.49:1",
     "duree_vie_lampe": "30000 heures",
-    "distance_projection": "2m"
+    "distance_projection": "0.8m - 2m"
   },
   {
     "id": "yaber-v12",
@@ -522,7 +522,7 @@
     "taille_image_max": "200 pouces",
     "rapport_projection": "1.36:1",
     "duree_vie_lampe": "20000+ heures",
-    "distance_projection": "5m"
+    "distance_projection": "1.3m - 5m"
   },
   {
     "id": "dangbei-n2-mini",
@@ -557,6 +557,6 @@
     "taille_image_max": "120 pouces",
     "rapport_projection": "1.25:1 ou 1.26:1",
     "duree_vie_lampe": "30000 heures (source lumineuse LED)",
-    "distance_projection": "3.5m"
+    "distance_projection": "1.5m - 3.5m"
   }
 ]
