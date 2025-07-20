@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return Math.min(ratio / 30000, 1); // Assuming a max contrast of 30000:1 based on your data
     }
 
-    function normalizePrix(prix, maxPrice = 350) { // Find the max price from your dataset
+    function normalizePrix(prix, maxPrice = 500) { // Find the max price from your dataset
         if (prix === null || isNaN(prix)) return 0; // If price is unknown, very low score or 0.
         return 1 - (prix / maxPrice); // Cheaper = higher score
     }
@@ -358,7 +358,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { label: 'Taille d\'image min', key: 'taille_image_min', type: 'text' },
             { label: 'Taille d\'image max', key: 'taille_image_max', type: 'text' },
             { label: 'Rapport de projection', key: 'rapport_projection', type: 'text' },
-            { label: 'Distance de projection', key: 'distance_projection', type: 'text' }, // Ajout ici
+            { label: 'Distance de projection max', key: 'distance_projection', type: 'text' }, // Ajout ici
             { label: 'Durée de vie lampe/source', key: 'duree_vie_lampe', type: 'text' },
             { label: 'Wi-Fi', key: 'connectivite.wifi', type: 'nested' },
             { label: 'Bluetooth', key: 'connectivite.bluetooth', type: 'nested' },
