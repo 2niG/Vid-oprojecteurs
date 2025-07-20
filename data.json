@@ -308,7 +308,7 @@
       "bluetooth": "Bluetooth 5.0",
       "ports": ["HDMI (x2)", "USB (x2)", "AV", "Audio Out (3.5mm)"]
     },
-    "luminosite": "9500 Lumens (valeur marketing, souvent autour de 350-450 ANSI Lumens)",
+    "luminosite": "400 ANSI Lumens",
     "contraste": "12000:1 (dynamique)",
     "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
     "autofocus_auto": true,
@@ -328,7 +328,7 @@
     "taille_image_min": "45 pouces",
     "taille_image_max": "300 pouces (optimal 100-150 pouces)",
     "rapport_projection": "1.36:1",
-    "duree_vie_lampe": "120000 heures (valeur très optimiste, se référer plutôt à la durée de vie de la LED qui est généralement de 30 000 heures)",
+    "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 7.0m"
   },
   {
@@ -342,7 +342,7 @@
       "bluetooth": "Bluetooth (version non spécifiée, probablement 4.2 ou 5.0)",
       "ports": ["HDMI (x2)", "USB (x2)", "AV", "Audio Out (3.5mm)"]
     },
-    "luminosite": "300-400 ANSI Lumens (estimation basée sur les modèles similaires, valeur marketing souvent supérieure)",
+    "luminosite": "350 ANSI Lumens",
     "contraste": "10000:1 (dynamique, estimation)",
     "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
     "autofocus_auto": true,
@@ -380,7 +380,7 @@
         "Audio Out (3.5mm Jack, x1)"
       ]
     },
-    "luminosite": "400 ANSI Lumens (ou 400 Lumens ISO)",
+    "luminosite": "400 ANSI Lumens",
     "contraste": "3000:1 (dynamique, certaines sources 1600:1)",
     "resolution": "1920x1080 (Full HD native, supporte la lecture vidéo 4K)",
     "autofocus_auto": true,
