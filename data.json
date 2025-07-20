@@ -66,7 +66,7 @@
     "taille_image_min": "40 pouces",
     "taille_image_max": "300 pouces (optimal 100-200 pouces)",
     "rapport_projection": "1.33:1",
-    "duree_vie_lampe": "30000 heures (certaines sources mentionnent 25 000h ou même 120 000h, 30 000h est une valeur courante et plus réaliste pour les LED)",
+    "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 7m"
   },
   {
