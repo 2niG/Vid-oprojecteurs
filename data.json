@@ -605,7 +605,7 @@
       "bluetooth": "Bluetooth 5.2",
       "ports": ["HDMI (x1)", "USB (x1)", "Audio Out (3.5mm)", "DC-IN"]
     },
-    "luminosite": "1000 ANSI Lumens (certaines sources mentionnent 1200 ANSI Lumens)",
+    "luminosite": "1000 ANSI Lumens",
     "contraste": "Non spécifié (mais généralement élevé pour cette gamme)",
     "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
     "autofocus_auto": true,
