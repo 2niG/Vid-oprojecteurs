@@ -157,7 +157,7 @@
         "Audio Out (3.5mm)"
       ]
     },
-    "luminosite": "600 ANSI Lumens (certaines sources mentionnent 750 ou 1100 ANSI, mais 600 est plus courant)",
+    "luminosite": "600 ANSI Lumens",
     "contraste": "20000:1 (dynamique)",
     "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
     "autofocus_auto": true,
@@ -472,7 +472,7 @@
       "bluetooth": "Non",
       "ports": ["HDMI (x2)", "USB", "VGA", "MicroSD", "AV In", "Audio Out"]
     },
-    "luminosite": "80 Lumens",
+    "luminosite": "80 ANSI Lumens",
     "contraste": "3000:1",
     "resolution": "800x480 (WVGA native, supporte Full HD)",
     "autofocus_auto": false,
@@ -535,7 +535,7 @@
       "bluetooth": "Bluetooth 5.2 (bidirectionnel)",
       "ports": ["HDMI (x1)", "USB 2.0 (x1)", "Audio Out (3.5mm)", "DC-IN"]
     },
-    "luminosite": "200 ISO Lumens (correspondant à environ 150-200 ANSI Lumens)",
+    "luminosite": "200 ANSI Lumens",
     "contraste": "2000:1",
     "resolution": "1920x1080 (Full HD native, supporte 2K)",
     "autofocus_auto": true,
