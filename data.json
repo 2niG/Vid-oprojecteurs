@@ -593,5 +593,38 @@
     "rapport_projection": "Non spécifié (distance recommandée 3m pour 100 pouces)",
     "duree_vie_lampe": "30000 heures",
     "distance_projection": "1.5m - 10m"
+  },
+  {
+    "id": "wimius-g1",
+    "nom": "Wimius G1",
+    "description": "Le Wimius G1 est un vidéoprojecteur intelligent et polyvalent, offrant une expérience home cinéma de haute qualité avec la puissance de **Google TV intégré**. Il permet un accès direct à un large éventail d'applications de streaming certifiées comme Netflix, YouTube, Amazon Prime Video et plus de 10 000 autres via le Google Play Store. Il est doté d'un **autofocus automatique et d'une correction automatique du trapèze**, assurant une image parfaitement nette et rectangulaire en quelques secondes. Sa connectivité est renforcée par le **Wi-Fi 6 bibande** et le **Bluetooth 5.2**, offrant une diffusion fluide et une connexion facile à des appareils audio externes. Son design moderne et son fonctionnement silencieux en font un choix idéal pour toutes les pièces.",
+    "prix": 288,
+    "image": "g1.jpg",
+    "connectivite": {
+      "wifi": "Wi-Fi 6 (bibande 2.4G/5G)",
+      "bluetooth": "Bluetooth 5.2",
+      "ports": ["HDMI (x1)", "USB (x1)", "Audio Out (3.5mm)", "DC-IN"]
+    },
+    "luminosite": "1000 ANSI Lumens (certaines sources mentionnent 1200 ANSI Lumens)",
+    "contraste": "Non spécifié (mais généralement élevé pour cette gamme)",
+    "resolution": "1920x1080 (Full HD native, supporte 4K compressé)",
+    "autofocus_auto": true,
+    "reglage_trapezoidal_auto": true,
+    "bruit_db": "Faible (généralement décrit comme très silencieux)",
+    "android_tv": true,
+    "os_smart": "Google TV intégré (Android 11.0 certifié) avec Google Assistant et Chromecast",
+    "fonctionnalites_sup": [
+      "Accès à plus de 10 000 applications (Netflix, Disney+, Prime Video, YouTube, etc.)",
+      "Zoom numérique (50%-100%)",
+      "Prise en charge de l'audio Dolby",
+      "Haut-parleurs intégrés (puissance non spécifiée)",
+      "Moteur optique anti-poussière (implicite pour les modèles récents WiMiUS)"
+    ],
+    "technologie_affichage": "LCD",
+    "taille_image_min": "Non spécifié",
+    "taille_image_max": "300 pouces (optimal autour de 100-150 pouces)",
+    "rapport_projection": "Non spécifié",
+    "duree_vie_lampe": "30000 heures",
+    "distance_projection": "Non spécifié (optimal pour 100 pouces à environ 2,5-3m)"
   }
 ]
