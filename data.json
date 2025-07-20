@@ -17,9 +17,8 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Très faible (silencieux)",
     "android_tv": false,
-    "os_smart": true,
+    "os_smart": "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
     "fonctionnalites_sup": [
-      "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
       "Correction automatique du trapèze 4 points / 6D",
       "Moteur optique entièrement scellé (anti-poussière)",
       "Duplication d'écran sans fil (iOS, Android, Mac, PC)",
@@ -55,9 +54,8 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (non spécifié, mais les retours utilisateurs le décrivent comme silencieux)",
     "android_tv": false,
-    "os_smart": true,
+    "os_smart": "Applications préchargées (Netflix certifié, YouTube, Amazon Prime Video, etc.)",
     "fonctionnalites_sup": [
-      "Applications préchargées (Netflix certifié, YouTube, Amazon Prime Video, etc.)",
       "Correction automatique du trapèze 6D et 4 points",
       "Zoom numérique (50% - 100%)",
       "Moteur optique entièrement scellé (anti-poussière)",
@@ -89,11 +87,9 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (non spécifié en dB, mais conçu pour être silencieux)",
     "android_tv": false,
-    "os_smart": true,
+    "os_smart": "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
     "fonctionnalites_sup": [
-      "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
       "Correction automatique du trapèze 4 points et 6D",
-      "Autofocus rapide (en quelques secondes)",
       "Moteur optique entièrement scellé (anti-poussière)",
       "Duplication d'écran sans fil (AirPlay, Miracast)",
       "Haut-parleurs intégrés (puissance non spécifiée, mais offrant un son correct)"
@@ -129,10 +125,8 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (certaines sources mentionnent environ 60dB, mais souvent décrit comme silencieux)",
     "android_tv": false,
-    "os_smart": true,
+    "os_smart": "Système d'exploitation Android 9.0 intégré",
     "fonctionnalites_sup": [
-      "Système d'exploitation Android 9.0 intégré",
-      "Applications préchargées (Netflix, YouTube, Amazon Prime Video et plus de 7000 via App Store)",
       "Correction automatique du trapèze 4 points",
       "Zoom numérique (50% - 100%)",
       "Moteur optique entièrement scellé (IP5X, anti-poussière, anti-points noirs/jaunissement)",
@@ -170,9 +164,8 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (non spécifié en dB, mais conçu pour être silencieux)",
     "android_tv": false,
-    "os_smart": false,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
-      "Autofocus automatique (en 5 secondes)",
       "Correction automatique du trapèze 4 points + 6D",
       "Capuchon d'objectif automatique",
       "Duplication d'écran sans fil (pour iOS, Android, Windows)",
@@ -206,7 +199,7 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Environ 35 dB",
     "android_tv": false,
-    "os_smart": false,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Autofocus rapide (1 seconde)",
       "Correction automatique du trapèze verticale",
@@ -241,7 +234,7 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (généralement décrit comme silencieux)",
     "android_tv": false,
-    "os_smart": false,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Autofocus intelligent et correction automatique du trapèze 6D",
       "Duplication d'écran sans fil (Airplay, Miracast)",
@@ -279,10 +272,9 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "< 30 dB",
     "android_tv": true,
-    "os_smart": true,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Android TV 10.0 avec Google Assistant intégré",
-      "Chromecast intégré",
       "Technologie d'adaptation intelligente de l'écran (ISA 2.0) : autofocus auto, correction trapèze auto, alignement écran auto, évitement d'obstacles",
       "Haut-parleurs stéréo intégrés Harman Kardon (2x 3W)",
       "HDR10+, HLG",
@@ -315,7 +307,7 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (généralement décrit comme silencieux)",
     "android_tv": false,
-    "os_smart": false,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Autofocus automatique et correction automatique du trapèze 4 points ('Smart Engine')",
       "Duplication d'écran sans fil (Airplay, Miracast, DLNA)",
@@ -348,13 +340,11 @@
     "autofocus_auto": true,
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Faible (non spécifié en dB, mais généralement optimisé)",
-    "android_tv": false,
-    "os_smart": true,
+    "android_tv": true,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Système d'exploitation Android intégré (version non spécifiée)",
-      "Accès aux applications de streaming (via OS Android)",
       "Autofocus et correction automatique du trapèze (souvent 4 points)",
-      "Duplication d'écran sans fil (Airplay, Miracast)",
       "Zoom numérique",
       "Haut-parleurs stéréo intégrés"
     ],
@@ -387,14 +377,11 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "< 30 dB (en mode cinéma à 25°C)",
     "android_tv": true,
-    "os_smart": true,
+    "os_smart": "Applications préchargées (Netflix certifié, YouTube, Amazon Prime Video)",
     "fonctionnalites_sup": [
       "Google TV / Android 11 OS",
-      "Applications préchargées (Netflix certifié, YouTube, Amazon Prime Video)",
-      "Chromecast intégré (Google Cast)",
       "Correction automatique du trapèze omnidirectionnelle (multi-angle)",
       "Évitement intelligent des obstacles",
-      "Alignement automatique de l'écran",
       "Haut-parleurs intégrés 2x 5W avec Dolby Audio",
       "Processeur MT9630, 2 Go RAM, 16 Go ROM"
     ],
@@ -429,12 +416,11 @@
     "reglage_trapezoidal_auto": false,
     "bruit_db": "35 dB (mode normal)",
     "android_tv": false,
-    "os_smart": false,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Lecteur multimédia intégré",
       "Haut-parleur interne de 5W",
       "Design compact et léger (1.35 kg)",
-      "Mise au point et correction du trapèze manuelles",
       "Câble USB-C vers HDMI inclus (pour connexion smartphone/tablette)"
     ],
     "technologie_affichage": "LCD",
@@ -462,14 +448,11 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Très silencieux (valeur non spécifiée en dB, mais un point fort du produit)",
     "android_tv": false,
-    "os_smart": true,
+    "os_smart": "Applications préchargées (Netflix, Amazon Prime, Disney+)",
     "fonctionnalites_sup": [
       "Système audio 2.1 intégré (2 haut-parleurs + 1 caisson de basses)",
-      "Applications préchargées (Netflix, Amazon Prime, Disney+)",
       "Correction automatique du trapèze verticale",
-      "Duplication d'écran sans fil (iOS, Android, Mac, PC)",
-      "Images jusqu’à 80 pouces (200 cm)",
-      "Mise au point manuelle"
+      "Duplication d'écran sans fil (iOS, Android, Mac, PC)"
     ],
     "technologie_affichage": "LCD",
     "taille_image_min": "Non spécifié",
@@ -496,7 +479,7 @@
     "reglage_trapezoidal_auto": false,
     "bruit_db": "43 dB",
     "android_tv": false,
-    "os_smart": false,
+    "os_smart": "Non",
     "fonctionnalites_sup": [
       "Lecteur multimédia intégré",
       "Haut-parleurs stéréo intégrés (2x 3W)",
@@ -527,9 +510,8 @@
     "reglage_trapezoidal_auto": true,
     "bruit_db": "Environ 36 dB",
     "android_tv": false,
-    "os_smart": true,
+    "os_smart": "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
     "fonctionnalites_sup": [
-      "Applications préchargées (Netflix, YouTube, Amazon Prime Video)",
       "Moteur optique entièrement scellé (anti-poussière)",
       "Duplication d'écran sans fil (Airplay, Miracast)",
       "Haut-parleurs intégrés Dolby 20W",
